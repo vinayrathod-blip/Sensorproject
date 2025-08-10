@@ -16,9 +16,9 @@ def get_requirements(file_path:str)-> List[str]:
 
 setup(
     name="Fault-detection",
-    version="0.0.0",
-    author="vinay",
-    author_email="vinay.email@example.com",
+    version="0.0.1",
+    author="Vinay Rathod",
+    author_email="vinay.rathod@example.com",
     install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
     
