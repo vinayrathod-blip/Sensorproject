@@ -7,7 +7,7 @@ MONGO_COLLECTION_NAME = "waferfault"
 
 
 TARGET_COLUMN = "quality"
-MONGO_DB_URL="mongodb+srv://vinay:1234@cluster0.x2nwxhg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URL='mongodb+srv://210010010064_db_user:210010010064@cluster1.4i5sann.mongodb.net/?retryWrites=true&w=majority&appName=cluster1'
 
 
 MODEL_FILE_NAME = "model"

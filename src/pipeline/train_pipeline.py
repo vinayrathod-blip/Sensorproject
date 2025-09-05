@@ -29,9 +29,7 @@ class TrainingPipeline:
     def start_model_training(self, train_arr,test_arr):
         try:
             model_trainer = ModelTrainer()
-            model_score = model_trainer.initiate_model_trainer(
-                train_arr, test_arr
-            )
+            model_score = model_trainer.initiate_model_trainer(train_arr, test_arr)
             return model_score
         except Exception as e:
             raise CustomException(e,sys)
